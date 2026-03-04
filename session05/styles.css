@@ -1,0 +1,47 @@
+body {
+    background-color: #afe5e3;
+    
+}
+
+#wrapper {
+    background-color: #8594e9;
+    width: 70%;
+    height: 0px auto;
+}
+
+
+
+header, nav, main, footer {
+    padding: 20px;
+    border: 2px solid #25007d;
+
+
+}
+
+main h2 {
+background-color: #4eb3cf;
+padding: 6px 0px;
+border-bottom:  1opx #0c1d8e;
+color: #5805e7;
+
+margin: 60px 0px 0px 0px;
+}
+
+
+/* styling a div block element box */
+div.imageContainer {
+    background-color: #dfcb83;
+    padding: 70px;
+    border: 8px solid #d9f3ef;
+}
+
+/* styling a img inline element box */
+div.imageContainer img {
+width: 200px;
+height: 200px;
+    border: 8px solid #f6f7f5;
+    margin: 22px;
+    padding: 40px;
+    background-color: #f0e88f;
+    background-image: url("images/bg01.webp");
+}
