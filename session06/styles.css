@@ -1,0 +1,47 @@
+div.galleryItem{
+    background-color: rgb(184, 181, 92);
+    float: left;
+    width: 23%;
+    border: 1px solid #ffffff;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+
+div.galleryItem img{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+div.galleryItem p {
+    text-align: center;
+    color: rgb(7, 9, 48);
+    font-weight: bold;
+
+}
+
+
+footer{
+    background-color: rgb(233, 194, 50);
+    clear: both;
+    padding: 10px;
+}
+
+#wrapper{
+    width: 1200px;
+    margin: auto;
+    }
+
+    body{
+        background-color: #da9595;
+    }
+
+footer a{
+        display: block;
+        margin-bottom: 8px;
+    }
