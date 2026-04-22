@@ -1,0 +1,118 @@
+/* START border-box fix */
+html {
+    box-sizing: border-box;
+}
+
+/* asterisk (*) symbol represents the universal selector. Its primary function is to select all elements of any type within the document. */
+
+/* :before is a pseudo-element used to insert content before the actual content of a selected element. It creates a "virtual" first child within the element, allowing you to style and add content that isn't directly present in your HTML markup. */
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* END border-box fix */
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+}
+
+
+body {
+    background-color: #4a90e2;
+    background-image: 
+        url("https://www.transparenttextures.com/patterns/starring.png"),
+        linear-gradient(135deg, rgba(109, 134, 214, 0.85), rgba(111,195,255,0.85));
+    background-attachment: fixed;
+}
+
+/* Add padding to all of the .container child elements */
+.container>* {
+    padding: 20px;
+}
+
+/* FLEX PARENT */
+.container {
+    background-color: #878787;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+
+/* FLEX CHILDREN */
+header {
+    background-color: #a8d8ff;
+    order: 1;
+    flex: 1 0 100%;
+    /* grow on, shrink off, span width of browser */
+    text-align: center;
+}
+
+main {
+    background-color: #4a90e2;
+    order: 3;
+    flex: 1 1 500px;
+}
+
+/* DISPLAY NAV HIGHER ON PAGE BUT LETTING THE HTML BE LOWER FOR ACCESSIBILITY */
+nav {
+    background-color: #83d2ea;
+    order: 2;
+    flex: 1 0 200px;
+}
+
+aside {
+    background-color: #d6ecff;
+    order: 4;
+    flex: 1 0 200px;
+}
+
+footer {
+    background-color: #6fc3ff;
+    order: 5;
+    flex: 1 0 100%;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    background-color: #1fc1c9;
+    color: #000000;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-family: 'Oswald', sans-serif;
+}
+
+a:hover {
+    color: #d6ecff;
+}
+
+main section {
+    margin-bottom: 30px;
+}
+
+body {
+    background-color: #61b3ce;
+}
