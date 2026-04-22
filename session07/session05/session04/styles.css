@@ -1,0 +1,54 @@
+
+body {
+	background-color: rgb(220, 237, 237);
+	font-family: "Abel", sans-serif;
+}
+
+/* id selector */
+#wrapper {
+    background-color: #a6c4e8;
+    width: 70%;
+    margin: 0px auto;
+    /* top and bottom are no margin, left and right are automatically equal */
+}
+
+/* grouping selector */
+h3 {
+	font-family:"Saira", sans-serif;
+}
+
+h4 {
+	font-family:"Space Grotesk", sans-serif;
+}
+
+h5 {
+	font-family:"Anton", sans-serif;
+}
+
+h1 {
+	color: rgb(16, 103, 61);
+	font-family: "Changa One", sans-serif;
+}
+
+header h2{
+
+
+	color: #137a77
+}
+
+main h2 {
+	color: #00FF00
+}
+span.author {
+
+	color: #0000FF;
+
+}
+
+nav a {
+	color: rgb(242, 155, 15);
+}
+
+nav a:hover {
+	color: yellow;
+}
