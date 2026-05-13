@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background-color: #c1f6e8;
+    color: rgb(158, 135, 60);
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+}
+
+h2, h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h4{
+
+    font-family:'Oswald', sans-serif;
+    font-size:24px;
+
+}
+
+section {
+    border-bottom: 1px solid gray;
+    padding: 30px 0;
+}
+
+p {
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+#panel,
+#panel2 {
+
+    padding: 30px;
+    display: none;
+
+}
+
+
+#cat{
+
+    width:400px;
+    border-radius:20px;
+    display:block;
+    margin:auto;
+    transition:0.3s;
+
+}
+
+#gecko{
+
+    width:220px;
+    border-radius:20px;
+    display:block;
+    margin:auto;
+    transition:0.3s;
+
+}
+
+#cat:hover,
+#gecko:hover{
+
+    opacity:0.7;
+    transform:scale(1.05);
+
+}
+
+.pet-gallery{
+
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    margin-top:40px;
+
+}
+
+.pet-card{
+
+    width:300px;
+    text-align:center;
+
+}
