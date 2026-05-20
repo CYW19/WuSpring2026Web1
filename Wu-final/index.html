@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Final Project </title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script>
+
+    $(document).ready(function(){
+
+        $("#cat").click(function(){
+
+        $("#panel").slideToggle("slow");
+        
+        });
+        
+        $("#cat").hover(function(){
+
+            $(this).fadeTo(300, 0.7);
+        },
+        function(){
+
+            $(this).fadeTo(300, 1);
+        
+        });
+    
+        $("#gecko").click(function(){
+    
+            $("#panel2").slideToggle("slow");
+    
+        });
+    
+    });
+
+</script>
+
+    <div class="container">
+
+        <header>
+            <h1>FINAL PROJECT </h1>
+            <h2>PETS</h2>
+
+            <section class="banner">
+
+                <img src="images/petsbanner.png">
+            
+            </section>
+
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="gallery.html">GALLERY</a>
+                <a href="about.html">ABOUT</a>
+            </nav>
+    
+        </header>
+
+        <main>
+
+            <article>
+
+            </article>
+            <section>
+
+                <h3>Why I Love Pets</h3>
+            
+                <p>
+                    Pets bring happiness and comfort to people. 
+                    I enjoy spending time with animals because they are cute, friendly, and relaxing to be around.
+                </p>
+            
+            </section>
+            
+
+            <section>
+
+                <h3>Pet Gallery</h3>
+                <section>
+
+                    <h3>Pet Photo Gallery</h3>
+                
+                    <div class="photo-grid">
+                
+                        <img src="images/cat1.png">
+                
+                        <img src="images/g1.png">
+                
+                        <img src="images/r1.png">
+                
+                        <img src="images/dog1.png">
+                
+                    </div>
+                
+                </section>
+
+                <div class="pet-gallery">
+
+                <div class="pet-card">
+
+                <img id="cat" src="images/cat.png">
+
+                <h4>YOUYOU</h4>
+
+                <div id="panel">
+
+                    Breed:British Shorthair <br><br>
+
+                    Age: 4 years old <br><br>
+
+                    Favorite Food: Chicken <br><br>
+
+                    Personality: Friendly and playful
+
+        </div>
+
+    </div>
+
+                    <div class="pet-card">
+
+                <img id="gecko" src="images/gecko.jpg">
+
+                <h4>CHEESE</h4>
+
+                <div id="panel2">
+
+                    Breed:Leopard Gecko <br><br>
+
+                    Age: 3 years old <br><br>
+
+                    Favorite Food: Mealworms <br><br>
+
+                    Personality: Sleepy and Lazy
+
+        </div>
+
+    </div>
+
+</div>
+            
+            </section>
+
+
+        </main>
+
+    </div>
+    <footer>
+
+        © 2026 CuiYi Wu <br>
+    
+        Sources: Google Fonts, jQuery, Unsplash
+
+    </footer>
+
+
+
+    
+</body>
+
+</html>

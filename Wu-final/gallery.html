@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Final Project </title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+
+    <script src="sketch.js"></script>
+    
+<script>
+
+    $(document).ready(function(){
+
+        $("#cat").click(function(){
+
+        $("#panel").slideToggle("slow");
+        
+        });
+        
+        $("#cat").hover(function(){
+
+            $(this).fadeTo(300, 0.7);
+        },
+        function(){
+
+            $(this).fadeTo(300, 1);
+        
+        });
+    
+        $("#gecko").click(function(){
+    
+            $("#panel2").slideToggle("slow");
+    
+        });
+    
+    });
+
+</script>
+
+    <div class="container">
+
+        <header>
+            <h1>PET BREEDS</h1>
+            <h2>Different Types of Pets</h2>
+
+            <section class="banner">
+
+                <img src="images/petsbanner.png">
+            
+            </section>
+
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="gallery.html">GALLERY</a>
+                <a href="about.html">ABOUT</a>
+            </nav>
+    
+        </header>
+
+        <main>
+
+            <h3>Popular Pet Breeds</h3>
+            <div class="breed-grid">
+        
+            <div class="breed-card">
+                
+                
+                <img src="images/b1.png">
+        
+                <h4>British Shorthair</h4>
+        
+                <p>
+                    Quiet, friendly, and easygoing cats.
+                </p>
+        
+            </div>
+
+            <div class="breed-card">
+
+                <img src="images/c1.jpg">
+            
+                <h4>Chinese Domestic Cat</h4>
+            
+                <p>
+                    Smart, independent, and adaptable cats commonly found in China.
+                </p>
+            
+            </div>
+
+            <div class="breed-card">
+
+                <img src="images/s1.jpg">
+            
+                <h4>Samoyed</h4>
+            
+                <p>
+                    Friendly, fluffy, and energetic dogs with a smiling face.
+                </p>
+            
+            </div>
+
+            <div class="breed-card">
+
+                <img src="images/dog2.jpg">
+            
+                <h4>Golden Retriever</h4>
+            
+                <p>
+                    Loyal, gentle, and intelligent dogs that are great with families.
+                </p>
+            
+            </div>
+
+            <div class="breed-card">
+
+                <img src="images/r2.jpg">
+            
+                <h4>Holland Lop</h4>
+            
+                <p>
+                    Cute rabbits with floppy ears and a gentle personality.
+                </p>
+            
+            </div>
+
+            <div class="breed-card">
+
+                <img src="images/r3.jpg">
+            
+                <h4>Flemish Giant</h4>
+            
+                <p>
+                    Large and calm rabbits that are known for their gentle nature.
+                </p>
+            
+            </div>
+
+            <div class="breed-card">
+
+                <img src="images/g2.jpg">
+            
+                <h4>Leopard Gecko</h4>
+            
+                <p>
+                    Small reptiles with spotted skin and a calm personality.
+                </p>
+            
+            </div>
+
+            <div class="breed-card">
+
+                <img src="images/g3.jpg">
+            
+                <h4>Crested Gecko</h4>
+            
+                <p>
+                    Cute climbing geckos with soft skin and big eyes.
+                </p>
+            
+            </div>
+
+        </div>
+
+        
+        </main>
+
+        <footer>
+
+            © 2026 CuiYi Wu <br>
+        
+            Sources: Google Fonts, jQuery, Unsplash
+    
+        </footer>
+    
+    
